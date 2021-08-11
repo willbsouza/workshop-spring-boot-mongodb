@@ -19,11 +19,11 @@ public class User implements Serializable{
 		
 	}
 
-	public User(String id, String name, String emailString) {
+	public User(String id, String name, String email) {
 		super();
 		this.id = id;
 		this.name = name;
-		this.email = emailString;
+		this.email = email;
 	}
 
 	public String getId() {
@@ -42,11 +42,11 @@ public class User implements Serializable{
 		this.name = name;
 	}
 
-	public String getEmailString() {
+	public String getEmail() {
 		return email;
 	}
 
-	public void setEmailString(String email) {
+	public void setEmail(String email) {
 		this.email = email;
 	}
 
